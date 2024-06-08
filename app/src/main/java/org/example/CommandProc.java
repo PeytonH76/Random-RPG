@@ -8,7 +8,6 @@ import java.util.Map;
 class CommandProcessor {
     // Remembers any commands added with the strings to activate the command
     private Map<String, Command> commandMap = new HashMap<>();
-
     
     public String registerCommand(String action, Command command) {
         commandMap.put(action, command);

@@ -150,7 +150,7 @@ class Enemy extends Character {
     }
     
 }
-
+ 
 class Ally extends Character {
 
     static String[][] names = {

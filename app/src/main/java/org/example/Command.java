@@ -27,7 +27,7 @@ class AttackCommand implements Command {
         attacker.attack(target);
     }
 }
-
+ 
 class HealCommand implements Command {
     private Character character;
     private int healAmount;

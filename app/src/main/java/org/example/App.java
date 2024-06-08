@@ -19,7 +19,7 @@ public class App {
         int ally1Health = random.nextInt(81) + 75;
         int ally1AttackPower = random.nextInt(11) + 20;
         int ally1Defense = random.nextInt(3) + 1;
-        
+         
         // Ally 2
         int ally2Health = random.nextInt(76) + 100;
         int ally2AttackPower = random.nextInt(11) + 10;

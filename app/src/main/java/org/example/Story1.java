@@ -99,7 +99,7 @@ public class Story1 {
                            "As soon as you go into the forrest, a creatur jumps out at you. \n");
         randomCombat();
     }
-
+    
     private void randomCombat() {
         String[] combatActions = {"playerAttack", "playerHeal"};
 
